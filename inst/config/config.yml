@@ -1,0 +1,8 @@
+default:
+  db:
+    dbname: postgres
+    server: localhost
+    port: 5432
+    username: postgres
+    password: p@ssword1
+    conn_string: "postgres://postgres:p@ssword1@localhost/postgres"
