@@ -6,12 +6,27 @@ Authors@R:
            comment = c(ORCID = "0000-0002-7489-8787"))
 Description: Suite of Database Utility Helpers Specific to PostgreSQL.
 License: MIT + file LICENSE
+URL: https://github.com/jimbrig/pgres, https://jimbrig.github.io/pgres/
+BugReports: https://github.com/jimbrig/pgres/issues
+Imports: 
+    cli,
+    crayon,
+    DBI,
+    fs,
+    glue,
+    here,
+    magrittr,
+    rlang,
+    stringr,
+    tibble,
+    utils
+Suggests: 
+    knitr,
+    rmarkdown,
+    spelling
+VignetteBuilder: 
+    knitr
 Encoding: UTF-8
 Language: en-US
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
-Imports: 
-    magrittr,
-    tibble
-URL: https://github.com/jimbrig/pgres
-BugReports: https://github.com/jimbrig/pgres/issues
